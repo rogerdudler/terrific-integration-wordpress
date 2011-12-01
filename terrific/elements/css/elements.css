@@ -1,7 +1,7 @@
 /* @group Elements */
 body {
 	font: 14px Arial, sans-serif;
-	color: #373737;
+	color: #444444;
 }
 
 /* Links */
@@ -51,12 +51,9 @@ b {
 }
 
 blockquote {
-	background-image: url(../../terrific/img/quote.png);
-	background-repeat: no-repeat;
 	font-family: Georgia, serif;
 	font-style: italic;
 	color: #888;
-	padding-left: 50px;
 }
 
 p.base {

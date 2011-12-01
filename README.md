@@ -10,6 +10,9 @@
 * Modernizr 1.0.6
 * JQuery 1.6.2
 
+## CSS Libraries (optional)
+* YUI Reset 2.9.0
+
 ## JQuery Plugins (optional)
 * Appear 1.1.1 (for async share buttons)
 * Fancybox 1.3.4 (lightbox)
