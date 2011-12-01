@@ -28,8 +28,9 @@
 
 @media (max-width: 800px) {
 	
-	.modShare ul li.shortlink {
-		display: none;
+	.modShare .social-share {
+		float: none;
+        margin-top: 20px;
 	}
 
 }

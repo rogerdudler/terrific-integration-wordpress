@@ -17,3 +17,12 @@
 	border-left: 1px solid #DDD;
 	padding-left: 20px;
 }
+
+@media (max-width: 800px) {
+
+    .modLogo {
+		padding: 15px 20px 0 20px;
+        border-bottom: 1px solid #DDD;
+	}
+
+}

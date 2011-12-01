@@ -22,7 +22,7 @@
 	
 	.modFooter {
 		padding: 20px;
-		font-size: 0.8em;
+        border-top: 1px solid #DDD;
 	}
 	
 }
