@@ -148,12 +148,14 @@ function terrific_static_module($module, $template = null) {
  * @since Terrific 1.0
  */
 function terrific_print_styles() {
-    wp_register_style('terrific', 
-		get_template_directory_uri() . '/terrific/css/css.php',
-		array(), 
-		'1.0.0'
-	);
-    wp_enqueue_style('terrific');
+    if (!is_admin()) {
+        wp_register_style('terrific',
+            get_template_directory_uri() . '/terrific/css/css.php',
+            array(),
+            '1.0.0'
+        );
+        wp_enqueue_style('terrific');
+    }
 }
 
 /**
@@ -318,7 +320,7 @@ function terrific_comment( $comment, $args, $depth ) {
  */
 function terrific_posted_on() {
 	// TODO: Translation
-    printf(__( '<span class="sep">Veröffentlicht am </span><time class="entry-date" datetime="%3$s" pubdate>%4$s</time><span class="by-author"> <span class="sep">von</span> <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'terrific'),
+    printf(__( '<span class="sep">Published on </span><time class="entry-date" datetime="%3$s" pubdate>%4$s</time><span class="by-author"> <span class="sep">by</span> <span class="author vcard"><a class="url fn n" href="%5$s" title="%6$s" rel="author">%7$s</a></span></span>', 'terrific'),
         esc_url(get_permalink()),
         esc_attr(get_the_time()),
         esc_attr(get_the_date('c')),

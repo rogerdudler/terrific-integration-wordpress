@@ -37,7 +37,7 @@ if (is_file($file) && !isset($_REQUEST['flush'])) {
 $output = '';
 
 // load reset css
-$output .= file_get_contents(TERRIFIC_DIR . '/libraries/reset.css');
+$output .= file_get_contents(TERRIFIC_DIR . '/core/reset.css');
 
 // load elements css
 $output .= file_get_contents(TERRIFIC_DIR . '/elements/css/elements.css');

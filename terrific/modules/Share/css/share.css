@@ -1,56 +1,10 @@
 /* @group modShare */
 .modShare {
-	/*margin-left: -40px;*/
-	margin-top: 20px;
-}
-
-.modShare ul {
-	background-color: #EEE;
-	overflow: hidden;
-}
-
-.modShare ul li {
-	list-style: none;
-	margin: 0;
-	float: left;
-}
-
-.modShare ul li a {
-	display: block;
-	text-decoration: none;
-	color: #666;
-	text-shadow: 1px 1px 0px #FFF;
-}
-
-.modShare ul li.other a {
-	padding: 9px 12px;
-}
-
-.modShare ul li.shortlink {
-	padding: 5px;
-	float: right;
-}
-
-.modShare ul li.shortlink input {
-	width: 280px;
-	border: none;
-	color: #999;
-	font-size: 12px;
-	padding: 6px;
-	text-shadow: 1px 1px 0px white;
-}
-
-.modShare ul li a img {
-	display: block;
-}
-
-.modShare ul li a:hover {
-	text-decoration: underline;
-	color: black;
+	margin-bottom: 20px;
 }
 
 .modShare .social-share {
-	margin-bottom: 20px;
+	margin-top: 20px;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	clear: both;
@@ -78,9 +32,5 @@
 	.modShare ul li.shortlink {
 		display: none;
 	}
-	
-	.modShare .social-share {
-		display: none;
-	}
-	
+
 }

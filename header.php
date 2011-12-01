@@ -14,11 +14,10 @@
 <?php get_header('empty'); ?>
 <div class="page-container">
  <div class="head">
-	<div class="left"><?php terrific_module('Wordmark') ?></div>
+	<div class="left"><?php terrific_module('Logo') ?></div>
 	<div class="right">
 		<div class="inner">
 	    <?php terrific_module('Search', array('template' => 'head', 'skin' => 'Head')) ?>
-		<?php terrific_module('BlogSwitcher') ?>
 		</div>
 	</div>
  </div>
