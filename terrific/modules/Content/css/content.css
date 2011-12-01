@@ -19,6 +19,10 @@
     margin-bottom: 20px;
 }
 
+.modContent .entry-content {
+    margin-bottom: 20px;
+}
+
 @media (max-width: 550px) {
 
     .modContent .entry-title {

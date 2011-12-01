@@ -2,7 +2,8 @@
 <?php comments_popup_link(
  	'<span class="leave-reply">' . __('Leave a reply', 'terrific') . '</span>', 
  	__('<strong>1</strong> Reply', 'terrific'), 
- 	__('<strong>%</strong> Replies', 'terrific')
+ 	__('<strong>%</strong> Replies', 'terrific'),
+    'btn primary'
 ); ?>
 <?php endif; ?>
 <div class="social-share" data-post-id="<?php the_ID() ?>" data-url="<?php the_permalink() ?>" data-shorturl="<?php echo $shortlink ?>" data-text="<?php the_title() ?>" data-via="<?php echo $data['via'] ?>"></div>

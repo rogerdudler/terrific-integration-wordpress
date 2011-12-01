@@ -4,17 +4,16 @@
 }
 
 .modShare .social-share {
-	margin-top: 20px;
 	padding-top: 2px;
 	padding-bottom: 2px;
-	clear: both;
 	overflow: hidden;
 	height: 20px;
+    float: right;
 }
 
 .modShare .social-share .share-facebook {
 	float: left;
-	width: 120px;
+	width: 100px;
 }
 
 .modShare .social-share .share-google {
