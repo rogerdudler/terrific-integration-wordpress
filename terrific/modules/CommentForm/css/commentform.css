@@ -1,0 +1,165 @@
+/* @group .modCommentForm */
+.modCommentForm {
+	
+}
+
+.modCommentForm .respond {
+	margin: 20px 0 20px 0;
+	position: relative;
+	padding: 0 0 0 0;
+	overflow: hidden;
+}
+.modCommentForm .respond input[type="text"],
+.modCommentForm .respond textarea {
+	position: relative;
+	padding: 5px 8px;
+	background: none;
+	border: 1px solid #DDD;
+	display: block;
+	width: 402px;
+}
+.modCommentForm .respond .comment-form-author,
+.modCommentForm .respond .comment-form-email,
+.modCommentForm .respond .comment-form-url,
+.modCommentForm .respond .comment-form-comment {
+	position: relative;
+}
+.modCommentForm .respond .comment-form-author label,
+.modCommentForm .respond .comment-form-email label,
+.modCommentForm .respond .comment-form-url label,
+.modCommentForm .respond .comment-form-comment label {
+	background: #eee;
+	color: #555;
+	display: block;
+	width: 110px;
+	padding: 3px 10px;
+	position: relative;
+	z-index: 1;
+	float: left;
+	clear: both;
+}
+.modCommentForm .respond input[type="text"]:focus,
+.modCommentForm .respond textarea:focus {
+	text-indent: 0;
+	z-index: 1;
+}
+.modCommentForm .respond .comment-notes {
+	margin-bottom: 20px;
+}
+.modCommentForm .respond form {
+	margin: 20px 0;
+}
+.modCommentForm .respond p {
+	margin-bottom: 5px;
+}
+.modCommentForm .respond textarea {
+	resize: vertical;
+}
+.modCommentForm .respond .comment-form-author .required,
+.modCommentForm .respond .comment-form-url .required,
+.modCommentForm .respond .comment-form-comment .required,
+.modCommentForm .respond .comment-form-email .required {
+	color: #bd3500;
+	font-size: 22px;
+	font-weight: bold;
+	right: 9px;
+	top: 5px;
+	position: absolute;
+	z-index: 1;
+}
+
+.modCommentForm .respond input#submit {
+	background: #FFF;
+	border: none;
+	color: #666;
+	cursor: pointer;
+	font-size: 14px;
+	margin: 10px 0;
+	position: relative;
+	font-weight: bold;
+	float: right;
+}
+
+.modCommentForm .respond input#submit:hover,
+.modCommentForm .respond input#submit:active {
+	color: #000;
+	text-decoration: underline;
+}
+
+.modCommentForm .respond #cancel-comment-reply-link {
+	color: #666;
+	margin-left: 10px;
+	text-decoration: none;
+}
+.modCommentForm .respond .logged-in-as a:hover,
+.modCommentForm .respond #cancel-comment-reply-link:hover {
+	text-decoration: underline;
+}
+
+.modCommentForm .respond label {
+	line-height: 2.0em;
+}
+.modCommentForm .respond input[type=text] {
+	display: block;
+	height: 24px;
+}
+
+#reply-title {
+	color: #373737;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 30px;
+}
+#cancel-comment-reply-link {
+	color: #888;
+	display: block;
+	font-weight: normal;
+	position: absolute;
+	right: 0;
+	text-decoration: none;
+	top: 15px;
+	font-size: 12px;
+}
+#cancel-comment-reply-link:focus,
+#cancel-comment-reply-link:active,
+#cancel-comment-reply-link:hover {
+	color: #ff4b33;
+}
+
+p.comment-form-comment {
+	margin: 0;
+}
+.form-allowed-tags {
+	display: none;
+}
+
+.modCommentForm p.logged-in-as {
+	margin-bottom: 20px;
+}
+
+/* Validation */
+
+#commentform input.error, #commentform textarea.error {
+	border: 1px solid #bd3500;
+}
+#commentform div.error, #commentform label.error {
+	color: #bd3500;
+}
+#commentform div.errorlabels label {
+	display: block;
+}
+
+.modCommentForm .respond .comment-form-author label.error,
+.modCommentForm .respond .comment-form-email label.error,
+.modCommentForm .respond .comment-form-comment label.error {
+	position: absolute;
+	top: 3px;
+	left: 550px;
+	width: 280px;
+	background: none;
+	line-height: normal;
+}
+
+@media (max-width: 800px) {
+	
+}

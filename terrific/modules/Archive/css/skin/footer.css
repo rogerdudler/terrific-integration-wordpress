@@ -1,0 +1,23 @@
+/* @group skinArchiveFooter */
+.skinArchiveFooter {
+	padding: 0 20px 40px 20px;
+}
+
+.skinArchiveFooter h3.base {
+	color: #626266;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 1;
+}
+
+.skinArchiveFooter ul li {
+	line-height: 20px;
+}
+
+.skinArchiveFooter ul li a {
+	color: #626266;
+	text-decoration: none;
+}

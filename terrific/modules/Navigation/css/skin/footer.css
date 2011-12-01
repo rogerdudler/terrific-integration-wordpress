@@ -1,0 +1,31 @@
+/* @group modMenu */
+.skinNavigationFooter {
+	padding: 0 20px 40px 20px;
+}
+
+.skinNavigationFooter h3.base {
+	color: #626266;
+	font-size: 17px;
+	font-weight: bold;
+	margin-bottom: 20px;
+	text-transform: none;
+	letter-spacing: 0;
+	line-height: 1;
+}
+
+.skinNavigationFooter ul li {
+	line-height: 20px;
+}
+
+.skinNavigationFooter ul li a {
+	color: #626266;
+	text-decoration: none;
+}
+
+.skinNavigationFooter .menu-item a {
+	padding: 0;
+}
+
+.skinNavigationFooter .menu-item {
+	float: none;
+}

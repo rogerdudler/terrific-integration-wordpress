@@ -1,0 +1,167 @@
+/* @group modContent */
+.modContent {
+	padding-bottom: 10px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.modContent .entry-title {
+	color: #373737;
+	font-size: 24px;
+	font-weight: normal;
+	padding-bottom: .1em;
+	padding-top: 10px;
+	text-decoration: none;
+	display: block;
+	width: 90%;
+	line-height: 1.3em;
+}
+
+.modContent .entry-title a {
+	color: #222;
+	text-decoration: none;
+}
+
+.modContent ul, .modContent ol {
+	margin-bottom: 20px;
+}
+
+.modContent ul li {
+	list-style: disc;
+	margin-left: 20px;
+}
+
+.modContent ol li {
+	list-style: decimal;
+	margin-left: 20px;
+}
+
+.modContent .entry-title a:hover,
+.modContent .entry-title a:focus,
+.modContent .entry-title a:active {
+	text-decoration: underline;
+}
+
+.modContent .entry-meta {
+	margin-top: 6px;
+	color: #818186;
+	clear: both;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+.modContent .entry-meta a {
+	text-decoration: none;
+	color: #515156;
+}
+
+.modContent .entry-meta a:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.modContent .entry-content,
+.modContent .entry-summary {
+	line-height: 21px;
+}
+
+.modContent .entry-content strong,
+.modContent .entry-content b {
+	font-weight: bold;
+}
+
+.modContent .entry-content em {
+    font-style: italic;
+}
+
+.modContent .entry-content p,
+.modContent .entry-summary p {
+	margin-bottom: 1.625em;
+}
+
+.modContent .entry-content h3 {
+	font-weight: bold;
+	color: #222;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.modContent .entry-content a {
+	text-decoration: underline;
+}
+
+.modContent .entry-content a:hover {
+	text-decoration: underline;
+}
+
+.modContent .entry-content, .modContent .entry-summary {
+	padding: 0;
+}
+
+.modContent .entry-content form {
+	margin-bottom: 1.625em;
+}
+
+.modContent .entry-header {
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.modContent .entry-featured-image {
+	overflow: hidden;
+	width: 550px;
+	margin-bottom: 20px;
+	position: relative;
+}
+
+.modContent .edit-link {
+	
+}
+
+.modContent .edit-link a {
+	background-color: #9a0909;
+	color: white;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-o-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	padding: 2px 4px;
+	margin-left: 6px;
+	font-size: 11px;
+	font-weight: bold;
+}
+
+.modContent .edit-link a:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.modContent .entry-featured-image img {
+	
+}
+
+.modContent .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.modContent nav {
+	clear: both;
+	overflow: hidden;
+	padding: 0 0 1.625em;
+}
+
+.modContent nav a {
+	font-size: 12px;
+	font-weight: bold;
+	line-height: 2.2em;
+}
+
+@media (max-width: 550px) {
+
+    .modContent .entry-title {
+        font-size: 18px;
+    }
+
+}

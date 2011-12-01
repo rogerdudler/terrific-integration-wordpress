@@ -1,0 +1,9 @@
+<h3 class="base"><?php echo $data['title'] ?></h3>
+<ul>
+<?php foreach ($data['items'] as $item) { ?>
+	<li><a href="<?php echo $item['link'] ?>"><?php echo $item['title'] ?></a></li>
+<?php } ?>
+</ul>
+<div class="quicklinks">
+<a class="tiny" href="<?php echo $data['feed'] ?>">RSS<span class="icon"></span></a>
+</div>

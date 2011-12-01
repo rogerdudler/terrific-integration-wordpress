@@ -1,0 +1,14 @@
+/* @group modSearch */
+.modSearch .assistive-text {
+	display: none;
+}
+
+.modSearch .field {
+	padding: 5px;
+	width: 240px;
+	font-size: 14px;
+}
+
+.modSearch .submit {
+	display: none;
+}

@@ -1,0 +1,28 @@
+/* @group modFooter */
+.modFooter {
+	background-color: #FFF;
+	clear: both;
+	padding: 30px 40px;
+	color: #BBB;
+	font-weight: normal;
+	line-height: 1.5em;
+}
+
+.modFooter a {
+	color: #999;
+	text-decoration: none;
+}
+
+.modFooter a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+@media (max-width: 550px) {
+	
+	.modFooter {
+		padding: 20px;
+		font-size: 0.8em;
+	}
+	
+}

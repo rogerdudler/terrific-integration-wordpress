@@ -1,0 +1,9 @@
+<h3 class="base"><?php echo $data['title'] ?></h3>
+<div class="tweets" data-screen-name="<?php echo $data['screen_name'] ?>" data-type="user_timeline" data-count="<?php echo $data['count'] ?>">
+<?php foreach ($data['tweets'] as $tweet) { ?>
+<div class="tweet"><img src="<?php echo $tweet->user->profile_image_url ?>" width="32" height="32" /><p><?php echo $tweet->text ?></p></div>
+<?php } ?>
+</div>
+<div class="quicklinks">
+	<a class="tiny" href="http://www.twitter.com/<?php echo $data['screen_name'] ?>">@<?php echo $data['screen_name'] ?><span class="icon"></span></a>
+</div>

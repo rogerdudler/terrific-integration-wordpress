@@ -1,0 +1,19 @@
+/* @group modLogo */
+.modLogo {
+	background-color: white;
+	padding: 30px 0 0 40px;
+	overflow: hidden;
+}
+
+.modLogo img {
+	float: left;
+}
+
+.modLogo p {
+	float: left;
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #999;
+	border-left: 1px solid #DDD;
+	padding-left: 20px;
+}

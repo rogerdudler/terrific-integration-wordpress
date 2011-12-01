@@ -1,0 +1,15 @@
+<h3 class="base"><?php echo $data['title'] ?></h3>
+<ul class="base">
+<?php foreach($data['comments'] as $comment) { ?>
+ <li>
+  <div class="avatar-container"><?php echo get_avatar($comment, 32); ?></div>
+  <a href="<?php echo esc_url(get_comment_link($comment->comment_ID)) ?>">
+   <span class="author"><?php echo $comment->comment_author ?>: </span>
+   <?php echo substr(strip_tags($comment->comment_content),0,60) . '...' ?>
+  </a>
+ </li>
+<?php } ?>
+</ul>
+<div class="quicklinks">
+<a class="tiny" href="<?php echo $data['feed'] ?>">RSS<span class="icon"></span></a>
+</div>

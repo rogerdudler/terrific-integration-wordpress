@@ -1,0 +1,11 @@
+<h3 class="base"><?php echo $data['title'] ?></h3>
+<div class="flickr" data-flickr-feed="<?php echo htmlspecialchars($data['feed']) ?>">
+<?php foreach ($data['images'] as $i => $item) { ?>
+<div class="flickr-image image-<?php echo ($i+1) ?>">
+	<a href="<?php echo $item->link ?>" class="flickr-image-item"><img src="<?php echo $item->media->s ?>" alt="" /></a>
+</div>
+<?php } ?>
+</div>
+<div class="quicklinks">
+<a href="<?php echo $data['url'] ?>" class="tiny">Zum Pool<span class="icon"></span></a>
+</div>

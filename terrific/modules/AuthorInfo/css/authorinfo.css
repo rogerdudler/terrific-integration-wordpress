@@ -1,0 +1,31 @@
+/* @group modAuthorInfo */
+.modAuthorInfo .author {
+	background: #EEE;
+	margin: 20px 0;
+	overflow: hidden;
+	padding: 20px;
+	border: 1px solid #DDD;
+
+}
+
+.modAuthorInfo .avatar {
+	float: left;
+}
+
+.modAuthorInfo .description {
+	margin-left: 68px;
+	padding: 0 10px;
+	color: #777;
+	line-height: 1.5em;
+}
+
+.modAuthorInfo .description h2 {
+	color: #000;
+	font-weight: bold;
+	line-height: 1;
+	margin-bottom: 5px;
+}
+
+.modAuthorInfo .description a {
+	color: #444;
+}

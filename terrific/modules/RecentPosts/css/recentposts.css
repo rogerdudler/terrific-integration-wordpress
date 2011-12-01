@@ -1,0 +1,22 @@
+/* @group modRecentPosts */
+.modRecentPosts {
+	
+}
+
+.modRecentPosts ul li {
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 5px;
+}
+
+.modRecentPosts ul li a {
+	display: block;
+	text-decoration: none;
+	color: #666;
+	line-height: 1.4em;
+}
+
+.modRecentPosts ul li a:hover {
+	color: #000;
+}

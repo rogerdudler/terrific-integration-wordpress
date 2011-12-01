@@ -1,0 +1,150 @@
+/* @group Layout */
+@media all {
+	.modLayout, .mod { 
+		margin: 0; 
+	}
+	
+	.modLayout {
+		background-color: #EEE;
+	}
+	
+	.modLayout .page-container {
+		margin: 0 auto;
+		width: 950px;
+		text-align: left;
+		position: relative;
+	}
+	
+	.modLayout .sidebar .mod {
+		margin-bottom: 20px;
+		font-size: 13px;
+	}
+	
+	.modLayout .body {
+		background-color: #FFF;
+	}
+	
+	.modLayout .head {
+		overflow: hidden;
+	}
+	
+	.modLayout .head .left,
+	.modLayout .content {
+		float: left;
+		width: 630px;
+	}
+	
+	.modLayout .content-inner {
+		padding: 30px 40px;
+	}
+
+	.modLayout .head .right,
+	.modLayout .sidebar {
+		float: left;
+		width: 320px;
+	}
+	
+	.modLayout .head .right .inner {
+		padding: 30px 0px 0px 20px;
+	}
+	
+	.modLayout .sidebar-inner {
+		padding: 40px 40px 40px 20px;
+	}
+	
+	.modLayout a {
+		color: #0b6ec2;
+	}
+	
+	.modLayout .fat-footer {
+		background-color: #FFF;
+		padding: 40px 20px 0 20px;
+		overflow: hidden;
+		color: #999;
+	}
+	
+	.modLayout .fat-footer a:hover {
+		text-decoration: underline;
+	}
+	
+	.modLayout .separator {
+		background-color: white;
+	}
+	
+	.modLayout .separator div {
+		background-image: url(../img/separator.gif);
+		background-repeat: repeat-x;
+		height: 1px;
+		margin: 0 40px;
+	}
+	
+	.modLayout .separator-line {
+		background-image: url(../img/separator.gif);
+		background-repeat: repeat-x;
+		height: 1px;
+	}
+	
+}
+
+@media print {
+	
+}
+
+@media (max-width: 1000px) {
+	
+}
+
+@media (max-width: 550px) {
+	
+	.modLayout .head .left {
+		width: auto;
+		float: none;
+	}
+	
+	.modLayout .head .right {
+		display: none;
+	}
+	
+	.modLayout .page-container {
+		width: auto;
+	}
+	
+	.modLayout .content {
+		float: none;
+		width: auto;
+	}
+	
+	.modLayout .content-inner {
+		padding: 12px 20px;
+	}
+	
+	.modLayout .content img {
+		width: 100%;
+		height: auto;
+	}
+	
+	.modLayout .content img.wp-smiley {
+		width: auto;
+		height: auto;
+	}
+	
+	.modLayout .sidebar {
+		display: none;
+	}
+	
+	.modLayout .fat-footer {
+		display: none;
+	}
+
+    .modLayout .content iframe,
+    .modLayout .content object,
+    .modLayout .content embed {
+        width: 100%;
+        height: 300px;
+    }
+
+    .modLayout .separator div {
+        margin: 0 20px;
+    }
+}
+/* @end */

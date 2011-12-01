@@ -1,0 +1,33 @@
+/* @group modTwitter */
+.modTwitter {
+	position: relative;
+}
+
+.modTwitter .tweet {
+	font-size: 13px;
+	margin-bottom: 15px;
+}
+
+.modTwitter .tweet p {
+	color: #666;
+	line-height: 1.4em;
+	margin-left: 40px;
+}
+
+.modTwitter .tweet a {
+	text-decoration: none;
+}
+
+.modTwitter .tweet a:hover {
+	text-decoration: underline;
+}
+
+.modTwitter .tweet-meta {
+	font-size: 11px;
+	color: #444;
+}
+
+.modTwitter .tweet img {
+	float: left;
+	margin-top: 0.25em;
+}

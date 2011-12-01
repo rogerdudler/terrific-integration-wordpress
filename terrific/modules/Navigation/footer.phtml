@@ -1,0 +1,6 @@
+<?php if ($data['title'] != '') : ?>
+<h3 class="base"><?php echo $data['title'] ?></h3>
+<?php endif; ?>
+<div role="navigation">
+    <?php wp_nav_menu(array('container_class' => 'menu-header', 'menu' => $data['menu'], 'theme_location' => 'primary')); ?>
+</div>

@@ -1,0 +1,14 @@
+.skinTextTypo h3 {
+	font-size: 24px;
+	font-weight: bold;
+	color: black;
+	text-align: right;
+	line-height: 31px;
+	margin-bottom: 8px;
+}
+
+.skinTextTypo p {
+	text-align: right;
+	line-height: 1.6em;
+	color: #444;
+}

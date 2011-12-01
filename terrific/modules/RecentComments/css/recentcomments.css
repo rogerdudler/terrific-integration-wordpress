@@ -1,0 +1,65 @@
+/* @group modRecentComments */
+.modRecentComments {
+	position: relative;
+}
+
+.modRecentComments ul {
+	line-height: 1.5em;
+}
+
+.modRecentComments ul li {
+	list-style: none;
+	display: block;
+	overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.modRecentComments ul li img {
+	
+}
+
+.modRecentComments ul li a {
+	display: block;
+	margin-left: 40px;
+	text-decoration: none;
+	color: #666;
+}
+
+.modRecentComments ul li a .author {
+	color: #999;
+	font-family: Georgia;
+	font-style: italic;
+}
+
+.modRecentComments ul li a:hover {
+	color: #000;
+}
+
+.modRecentComments .avatar {
+}
+
+.modRecentComments .avatar-container {
+	overflow: hidden;
+	float: left;
+	width: 32px;
+	height: 32px;
+	margin-top: 0.25em;
+}
+
+.modRecentComments a.feed {
+	position: absolute;
+	background-color: #EEE;
+	top: 0;
+	right: 0;
+	padding: 3px 5px;
+	display: block;
+	font-size: 11px;
+	color: #999;
+	margin-top: 10px;
+	text-decoration: none;
+}
+
+.modRecentComments a.feed:hover {
+	background-color: #ff9000;
+	color: white;
+}

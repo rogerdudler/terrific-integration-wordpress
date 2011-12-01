@@ -1,0 +1,9 @@
+<h3 class="base"><?= $data['title'] ?></h3>
+<ul class="base">
+<? foreach($data['links'] as $link) { ?>
+	<li>
+		<a href="<?= $link->link_url ?>"><?= $link->link_name ?></a>
+		<p><?= $link->link_description ?></p>
+	</li>
+<? } ?>
+</ul>

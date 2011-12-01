@@ -1,0 +1,28 @@
+.skinSearchHead {
+	overflow: hidden;
+	margin-bottom: 15px;
+}
+
+.skinSearchHead .field {
+	background: transparent;
+	border: none;
+	display: block;
+	width: 210px;
+	float: left;
+	border: 1px solid #BBB;
+}
+
+.skinSearchHead .search-submit {
+	background: none;
+	border: none;
+	display: block;
+	float: right;
+	padding-top: 5px;
+	font-size: 13pt;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.skinSearchHead input::-webkit-input-placeholder {
+	color: #000;
+}

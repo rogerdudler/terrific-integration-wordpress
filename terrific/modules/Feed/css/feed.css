@@ -1,0 +1,8 @@
+/* @group modFeed */
+.modFeed {
+	position: relative;
+}
+
+.modFeed ul { 
+	line-height: 1.5em; 
+}

@@ -1,0 +1,14 @@
+<?php
+// If a user has filled out their description, show a bio on their entries.
+if (get_the_author_meta('description') || get_the_author_meta('user_url')) : ?>
+<div class="author">
+<div class="avatar">
+	<?php echo get_avatar(get_the_author_meta('user_email'), 60); ?>
+</div><!-- #author-avatar -->
+<div class="description">
+	<h2><?php printf( __('About %s', 'terrific'), get_the_author()); ?></h2>
+	<?php the_author_meta('description'); ?>
+	<div><a href="<?php the_author_meta('user_url'); ?>"><?php the_author_meta('user_url'); ?></a></div>
+</div><!-- #author-description	-->
+</div>
+<?php endif; ?>

@@ -1,0 +1,116 @@
+/* @group Elements */
+body {
+	font: 14px Arial, sans-serif;
+	color: #373737;
+}
+
+/* Links */
+a.base, a.base:link, .richText a, .richtText a:link {
+}
+
+a.base:visited, .richText a:visited {
+}
+
+a.base:active, .richText a:active {
+}
+
+a.base:hover, .richText a:hover {
+}
+
+/* Headings */
+h1.base, .richText h1, .entry-title {
+    color: #222;
+    font-size: 24px;
+    font-weight: normal;
+    padding-bottom: .1em;
+    padding-top: 10px;
+    text-decoration: none;
+    display: block;
+    width: 90%;
+    line-height: 1.3em;
+}
+
+h2.base, .richText h2 {
+}
+
+h3.base, .richText h3 {
+	font-size: 14px;
+	color: #818186;
+	line-height: 2.8em;
+}
+
+h1.page-title {
+	font-size: 14px;
+	color: #818186;
+	line-height: 2.6em;
+}
+
+b {
+	display: inline;
+	font-size: inherit;
+}
+
+blockquote {
+	background-image: url(../../terrific/img/quote.png);
+	background-repeat: no-repeat;
+	font-family: Georgia, serif;
+	font-style: italic;
+	color: #888;
+	padding-left: 50px;
+}
+
+p.base {
+	line-height: 1.5em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #444;
+}
+
+.sidebar .quicklinks {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 11px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+a.tiny {
+	background: #EEE;
+	top: 0;
+	right: 0;
+	padding: 3px 19px 3px 5px;
+	display: inline-block;
+	font-size: 11px;
+	color: #999;
+	text-decoration: none;
+	float: left;
+	margin-left: 2px;
+	position: relative;
+}
+
+a.tiny .icon {
+	position: absolute;
+	top: 4px;
+	right: 5px;
+	width: 9px;
+	height: 9px;
+	background: transparent url(../../terrific/img/arrows.png) -15px 0 no-repeat;
+}
+
+a.tiny:hover {
+	background-color: #0b6ec2;
+	color: white;
+}
+
+a.tiny:hover .icon {
+	background: transparent url(../../terrific/img/arrows.png) -28px 0 no-repeat;
+}
+
+.syntax {
+	padding: 10px;
+	border: 1px solid #DDD;
+	margin-bottom: 20px;
+}
+
+/* @end */

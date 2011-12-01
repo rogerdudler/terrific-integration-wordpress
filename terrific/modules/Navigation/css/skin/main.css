@@ -1,0 +1,23 @@
+/* @group skinNavigationMain */
+.skinNavigationMain {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 25px 40px 0 0;
+}
+
+.skinNavigationMain li {
+	float: left;
+}
+
+.skinNavigationMain li a {
+	font-weight: bold;
+	color: #999;
+	text-decoration: none;
+	padding-left: 25px;
+	font-size: 13px;
+}
+
+.skinNavigationMain li a:hover {
+	color: black;
+}

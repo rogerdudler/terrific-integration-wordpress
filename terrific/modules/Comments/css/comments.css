@@ -1,0 +1,124 @@
+/* @group modComments */
+.modComments {
+
+}
+
+.modComments .comment {
+	position: relative;
+	margin-bottom: 25px;
+}
+
+.modComments .comments {
+	padding-top: 20px;
+	background-image: url(../img/separator.gif);
+	background-repeat: repeat-x;
+}
+
+.modComments .comment-body {
+	padding: 20px 0;
+}
+
+.modComments .comment-author {
+	overflow: hidden;
+}
+
+.modComments .comment-author .says {
+	display: none;
+}
+
+.modComments .comment-author .fn {
+	font-weight: bold;
+}
+
+.modComments .comment-author .fn a:hover {
+	text-decoration: underline;
+}
+
+.modComments .comment-author .avatar {
+	float: left;
+}
+
+.modComments .comments-title {
+	font-size: 22px;
+	font-weight: bold;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.modComments .comment-awaiting-moderation {
+	background-color: #d8b147;
+	color: #FFF;
+	display: block;
+	padding: 5px 8px;
+	text-shadow: 1px 1px 0px #a07c1a;
+	margin: 5px 0;
+}
+
+.modComments .comment-meta {
+	font-size: 1em;
+	margin: 10px 0 0 0;
+}
+
+.modComments .comment-meta a {
+	text-decoration: none;
+}
+
+.modComments .comment-author-info {
+	padding: 0px 12px;
+	margin-left: 39px;
+}
+
+.modComments .comment-author-info time {
+	font-family: Georgia;
+	margin-top: 4px;
+	display: block;
+	font-size: 0.8em;
+	color: #999;
+	font-style: italic;
+}
+
+.modComments .reply {
+	position: absolute;
+	top: 0;
+	right: 0;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+.modComments .reply a {
+	color: #666;
+	text-decoration: none;
+}
+
+.modComments .comment-content p a {
+	text-decoration: none;
+}
+
+.modComments .comment-content p a:hover {
+	color: #000;
+}
+
+.modComments .comment-content p {
+	font-size: 0.9em;
+	padding-left: 12px;
+	line-height: 1.5em;
+	color: #555;
+	margin-left: 39px;
+	margin-top: 5px;
+}
+
+.modComments .depth-2 {
+	margin-left: 51px;
+}
+
+.modComments .depth-2 .comment-author-info {
+	margin-left: 39px;
+}
+
+@media (max-width: 800px) {
+	
+	.modComments .comment-author .avatar {
+		width: 39px;
+	}
+	
+}

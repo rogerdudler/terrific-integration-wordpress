@@ -1,0 +1,19 @@
+<ul>
+ <?php 
+ $shortlink = get_post_meta(get_the_ID(), 'shortlink', true);
+ if (!$shortlink) {
+ 	$shortlink = get_permalink();
+ } ?>
+ <?php if (comments_open() && ! post_password_required()) : ?>
+ <li class="other">
+ <?php comments_popup_link(
+ 	'<span class="leave-reply">' . __('Leave a reply', 'terrific') . '</span>', 
+ 	__('<strong>1</strong> Reply', 'terrific'), 
+ 	__('<strong>%</strong> Replies', 'terrific')
+ ); ?>
+  </li>
+ <?php endif; ?>
+ <li class="shortlink"><input spellcheck="false" class="shortlink-input" type="text" value="<?php echo $shortlink ?>" />
+</ul>
+<div class="social-share" data-post-id="<?php the_ID() ?>" data-url="<?php the_permalink() ?>" data-shorturl="<?php echo $shortlink ?>" data-text="<?php the_title() ?>" data-via="<?php echo $data['via'] ?>">
+</div>

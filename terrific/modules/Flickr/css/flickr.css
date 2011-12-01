@@ -1,0 +1,39 @@
+/* @group modFlickr */
+.modFlickr {
+	overflow: hidden;
+	position: relative;
+}
+
+.modFlickr .flickr-image {
+	background-color: #EFEFEF;
+	width: 84px;
+	height: 55px;
+	overflow: hidden;
+	float: left;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	position: relative;
+}
+
+.modFlickr .flickr-image img {
+	width: 84px;
+}
+
+.modFlickr .image-3,
+.modFlickr .image-6,
+.modFlickr .image-9,
+.modFlickr .image-12,
+.modFlickr .image-15,
+.modFlickr .image-18 {
+	margin-right: 0;
+}
+
+.modFlickr .flickr-image a {
+	display: none;
+}
+
+.modFlickr .flickr-image a:hover img {
+	-moz-opacity:.50; 
+	filter:alpha(opacity=50); 
+	opacity:.50;
+}
