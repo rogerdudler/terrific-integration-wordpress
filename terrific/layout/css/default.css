@@ -66,24 +66,7 @@
 	.modLayout .fat-footer a:hover {
 		text-decoration: underline;
 	}
-	
-	.modLayout .separator {
-		background-color: white;
-	}
-	
-	.modLayout .separator div {
-		background-image: url(../img/separator.gif);
-		background-repeat: repeat-x;
-		height: 1px;
-		margin: 0 40px;
-	}
-	
-	.modLayout .separator-line {
-		background-image: url(../img/separator.gif);
-		background-repeat: repeat-x;
-		height: 1px;
-	}
-	
+
 }
 
 @media print {
@@ -143,8 +126,5 @@
         height: 300px;
     }
 
-    .modLayout .separator div {
-        margin: 0 20px;
-    }
 }
 /* @end */

@@ -32,14 +32,11 @@
 }
 
 .modShare ul li.shortlink input {
-	background-image: url(../img/share.gif);
-	background-position: right;
-	background-repeat: no-repeat;
 	width: 280px;
 	border: none;
 	color: #999;
 	font-size: 12px;
-	padding: 6px 25px 6px 6px;
+	padding: 6px;
 	text-shadow: 1px 1px 0px white;
 }
 
