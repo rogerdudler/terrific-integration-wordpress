@@ -1,6 +1,6 @@
 # The Terrific WordPress Theme - A modular approach
 
-## Getting started
+## Manuel Installation (Theme only)
 1. Download the Terrific theme and unzip it into the /wp-content/themes directory
 2. Give permission to the /wp-content/themes/terrific/cache/ directory (chmod 777 ...)
 3. Activate the theme in WordPress!
