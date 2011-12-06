@@ -5,6 +5,26 @@
 2. Give permission to the /wp-content/themes/terrific/cache/ directory (chmod 777 ...)
 3. Activate the theme in WordPress!
 
+## Bundle Installation (with WordPress)
+
+    #/sbin/sh
+    VERSION=3.3-RC1
+    echo "Installing WordPress $VERSION with Terrific..."
+    wget http://wordpress.org/wordpress-$VERSION.tar.gz
+    tar xvfz wordpress-$VERSION.tar.gz
+    cd wordpress
+    echo -e "<?php define('WP_DEFAULT_THEME', 'terrific'); ?>\n$(cat wp-config-sample.php)" > wp-config-sample.php
+    cd wp-content
+    cd themes
+    wget https://github.com/rogerdudler/terrific-integration-wordpress/tarball/master --no-check-certificate
+    tar xvfz master
+    mv rogerdudler-terrific-integration-wordpress-* terrific
+    rm master
+    cd terrific
+    mkdir cache
+    chmod 777 cache
+    echo "Finished."
+
 ## Included
 * TerrificJS 1.0
 * Modernizr 1.0.6
