@@ -2,7 +2,7 @@
 
 ## Manuel Installation (Theme only)
 1. Download the Terrific theme and unzip it into the /wp-content/themes directory
-2. Give permission to the /wp-content/themes/terrific/cache/ directory (chmod 777 ...)
+2. Create the /wp-content/themes/terrific/cache/ directory and make it writeable by webserver (chmod 777 ...)
 3. Activate the theme in WordPress!
 
 ## Bundle Installation (with WordPress)
