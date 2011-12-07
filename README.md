@@ -1,11 +1,13 @@
 # The Terrific WordPress Theme - A modular approach
 
-## Manuel Installation (Theme only)
+## Theme Installation
 1. Download the Terrific theme and unzip it into the /wp-content/themes directory
 2. Create the /wp-content/themes/terrific/cache/ directory and make it writeable by webserver (chmod 777 ...)
 3. Activate the theme in WordPress!
 
 ## Bundle Installation (with WordPress)
+
+1. Create a install.sh with the following code in your document root and run it
 
     #/sbin/sh
     VERSION=3.3-RC1
@@ -24,6 +26,9 @@
     mkdir cache
     chmod 777 cache
     echo "Finished."
+
+2. Delete the shell script
+3. Open up your browser on your domain and install wordpress with the installer
 
 ## Included
 * TerrificJS 1.0
