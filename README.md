@@ -34,7 +34,7 @@
 
 ## JS Libraries (optional)
 * Modernizr 1.0.6
-* 
+
 ## JQuery Plugins (optional)
 * Appear 1.1.1 (for async share buttons)
 * Fancybox 1.3.4 (lightbox)
